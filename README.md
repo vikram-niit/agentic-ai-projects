@@ -53,12 +53,12 @@ Projects in this repo demonstrate how to build and orchestrate **AI agents** tha
     cd agentic-ai-projects/langchain-agent/
   ```
 
-3.   Install dependencies:
+3. Install dependencies:
     ```
     pip install -r requirements.txt
     ```
 
-4.   Run the example agent:
+4. Run the example agent:
     ```
     python run_agent.py
     ```
