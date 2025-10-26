@@ -47,8 +47,11 @@ Projects in this repo demonstrate how to build and orchestrate **AI agents** tha
    ```bash
    git clone https://github.com/yourusername/agentic-ai-projects.git
    ```
-  
-  
+
+2. Navigate to a project:
+   ```bash
+  cd agentic-ai-projects/langchain-agent/
+  ```
 
 3. Install dependencies:
     ```
