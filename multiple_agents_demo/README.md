@@ -36,8 +36,6 @@ The agent will:
 5. Produce a final answer
 Verbose mode is enabled so the full reasoning steps are printed.
 
-
-
 ## File Structure
 ```css
 .
@@ -47,16 +45,9 @@ Verbose mode is enabled so the full reasoning steps are printed.
 
 ## Notes
 
-
-
-The script uses AgentType.ZERO\_SHOT\_REACT\_DESCRIPTION to enable step-by-step reasoning.
-
-
-
+The script uses ```AgentType.ZERO_SHOT_REACT_DESCRIPTION``` to enable step-by-step reasoning.
 The Python REPL tool is included for dynamic computation when needed.
-
-
-
 For production use, avoid storing API keys in plaintext files.
+
 
 
