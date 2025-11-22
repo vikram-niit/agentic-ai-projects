@@ -6,9 +6,9 @@ This repository demonstrates how to build a LangChain agent that can use multipl
 - Loads OpenAI API Key from a local file (```openai_key.txt```)
 - Uses ChatOpenAI as the LLM
 - Integrates several LangChain tools:
-- llm-math — mathematical reasoning
-- wikipedia — factual lookup
-- PythonREPLTool — execute Python code safely inside an agent loop
+  - ```llm-math``` — mathematical reasoning
+  - ```wikipedia``` — factual lookup
+  - ```PythonREPLTool``` — execute Python code safely inside an agent loop
 - Sets up a Zero-Shot ReAct agent, enabling reasoning loops
 - Runs an example query combining factual lookup and numeric computation
 
@@ -48,6 +48,7 @@ Verbose mode is enabled so the full reasoning steps are printed.
 The script uses ```AgentType.ZERO_SHOT_REACT_DESCRIPTION``` to enable step-by-step reasoning.
 The Python REPL tool is included for dynamic computation when needed.
 For production use, avoid storing API keys in plaintext files.
+
 
 
 
